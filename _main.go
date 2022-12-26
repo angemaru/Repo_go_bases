@@ -1,12 +1,6 @@
 package main
 
-import (
-	"fmt"
-	// "hola_mundo/eje_bases_2"
-	"hola_mundo/eje_bases_3_1"
-)
-
-func main() {
+func _main() {
 	//eje_bases_2.LetrasApp("manzana")
 	//eje_bases_2.Prestamo(24,true,1,230000)
 	/*for i:=12;i>0;i--{
@@ -15,7 +9,7 @@ func main() {
 	//eje_bases_2.Get_info_empl()
 
 	//Impuesto
-	fmt.Println(eje_bases_3_1.Get_impuesto(160000))
+	//fmt.Println(eje_bases_3_1.Get_impuesto(160000))
 
 	//Notas
 	//fmt.Println(eje_bases_3_1.Promedio(2.0, 3.0, 4.5, 3.4, 5.0))
@@ -25,4 +19,5 @@ func main() {
 
 	//Estaditicas
 	//eje_bases_3_1.Ejercicio4()
+
 }
