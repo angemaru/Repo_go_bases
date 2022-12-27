@@ -1,4 +1,4 @@
-//package main
+package dia_3
 
 import "fmt"
 
@@ -15,7 +15,7 @@ var pro2 = Product{2, "Banana", 3000, "Fruta amarilla de alta calidad", "Frutas"
 var pro3 = Product{3, "Pera", 2500, "Fruta verde de alta calidad", "Frutas"}
 var Products = []Product{pro1, pro2, pro3}
 
-func main11() {
+func main() {
 	pro1.GetAll()
 	var pro3 = Product{4, "Fresita", 2500, "Fruta dulce y roja de muy alta calidad", "Frutas"}
 	pro3.Save()

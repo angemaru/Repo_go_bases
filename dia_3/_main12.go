@@ -1,4 +1,4 @@
-// package main
+package dia_3
 
 import (
 	"fmt"
