@@ -8,16 +8,16 @@ import (
 var errorSalarioMenor = errors.New("Error: el salario es menor a 10.000")
 
 func _2main() {
-	salary := 30000
+	salary := 3000
 	err := &myError1{salary}
 	coincidence := errors.Is(err, errorSalarioMenor)
 	fmt.Println(coincidence)
 
 	if coincidence {
 		fmt.Println(err)
+	} else {
+		fmt.Println("Debe pagar el impuesto")
 	}
-
-	fmt.Println("Debe pagar el impuesto")
 
 }
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func _5main() {
 	fmt.Println(monthlySalary(10, 2000))
 }
 
