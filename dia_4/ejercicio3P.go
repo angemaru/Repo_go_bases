@@ -12,10 +12,10 @@ var cli3 = Cliente{[]string{"archivo13", "archivo23", "archivo33"}, "María", 10
 var Clientes = []Cliente{cli1, cli2, cli3}
 
 func main() {
-	var cli_a_registrar = Cliente{[]string{"Doc1.txt"}, "María", 1000202, 3123993943, "Cra 1 e No 3-22 Casa 12"}
+	var cli_a_registrar = Cliente{[]string{}, "María", 1000202, 3123993943, "Cra 1 e No 3-22 Casa 12"}
 
 	//tarea 1
-	err1 := clienteRepetido(100020)
+	err1 := clienteRepetido(1000202)
 	if err1 != nil {
 		deferFunction(err1)
 	} else {
@@ -32,8 +32,13 @@ func main() {
 
 	//tarea 3
 	if err1 != nil && err2 != nil {
-		deferFunction(errors.New("se detectaron varios errores en tiempo de ejecución"))
-		fmt.Println(errors.New("fin de la ejecución"))
+		defer func() {
+			fmt.Println("se detectaron varios errores en tiempo de ejecución")
+			fmt.Println("fin de la ejecución")
+		}()
+
+		//deferFunction(errors.New("se detectaron varios errores en tiempo de ejecución"))
+		//fmt.Println(errors.New("fin de la ejecución"))
 	}
 
 }

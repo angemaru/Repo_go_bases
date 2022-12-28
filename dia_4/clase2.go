@@ -5,13 +5,14 @@ import (
 	"log"
 )
 
-func _c2main() {
+func _C2main() {
 	fmt.Println("Comienza el programa")
 	function()
+
 	fmt.Println("Todo salió bien")
+
 }
 
-// mufio
 func function() {
 	var apiSlice []string
 	defer func() {
