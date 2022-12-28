@@ -1,4 +1,4 @@
-package main
+//package main
 
 func _main() {
 	//eje_bases_2.LetrasApp("manzana")
