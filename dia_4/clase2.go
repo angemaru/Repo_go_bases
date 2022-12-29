@@ -5,7 +5,7 @@ import (
 	"log"
 )
 
-func _C2main() {
+func main() {
 	fmt.Println("Comienza el programa")
 	function()
 

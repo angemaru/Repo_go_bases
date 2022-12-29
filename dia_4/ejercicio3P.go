@@ -11,7 +11,7 @@ var cli2 = Cliente{[]string{"archivo12", "archivo22", "archivo32"}, "Ana", 10002
 var cli3 = Cliente{[]string{"archivo13", "archivo23", "archivo33"}, "María", 1000202, 3123993943, "Cra 1 e No 3-22 Casa 12"}
 var Clientes = []Cliente{cli1, cli2, cli3}
 
-func main() {
+func _3pmain() {
 	var cli_a_registrar = Cliente{[]string{}, "María", 1000202, 3123993943, "Cra 1 e No 3-22 Casa 12"}
 
 	//tarea 1
